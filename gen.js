@@ -46,6 +46,8 @@ function generate_osce () {
   osce_case += "patient id: "+generate_patient_name()+", age: "+generate_patient_age()+"<br>";
   osce_case += "pc: pain <br>hpc:<br>";
   osce_case += generate_socrates();
+  osce_case += 'pmhx: '+choose_from(['types 2 diabetes','hypertension','asthma','trauma from car accident when 12','depression'])+'<br>';
+  osce_case += 'fhx: '+choose_from(['nil','unknown',choose_from(['bowel','liver','brain','lung','pancreatic'])+' cancer','mental illness','type 2 diabetes'])+'<br>'
   osce_case += '<br>qns: <br>(1) take history from patient <br>(2) list your ddx <br>(3) which investigations are appropriate?<br>';
   osce_case += '<br>marking scheme: <br>empty, needs to be added later<br>';
   return osce_case
