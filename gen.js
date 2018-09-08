@@ -46,7 +46,7 @@ function generate_osce () {
   osce_case += "patient id: "+generate_patient_name()+", age: "+generate_patient_age()+"<br>";
   osce_case += "pc: pain <br>hpc:<br>";
   osce_case += generate_socrates();
-  osce_case += '<br>qns: <>br(1) take history from patient <br>(2) list your ddx <br>(3) which investigations are appropriate?<br>';
-  osce_case += '<br>marking scheme: empty, needs to be added later<br>';
+  osce_case += '<br>qns: <br>(1) take history from patient <br>(2) list your ddx <br>(3) which investigations are appropriate?<br>';
+  osce_case += '<br>marking scheme: <br>empty, needs to be added later<br>';
   return osce_case
 }
