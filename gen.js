@@ -33,7 +33,7 @@ function generate_socrates (){
   var s = "s: "+choose_from(['left','right'])+" "+choose_from(socrates_pool[0])+'<br>';
   var o = 'o: '+choose_from(socrates_pool[1])+'<br>';
   var c = 'c: '+choose_from(socrates_pool[2])+'<br>';
-  var r = 'r: '+choose_from(['nil','radiate to '+choose_from(['left','right'])+" "+choose_from(socrates_pool[0])],'radiate to '+choose_from(['left','right'])+" "+choose_from(socrates_pool[0])])+'<br>';
+  var r = 'r: '+choose_from(['nil','radiate to '+choose_from(['left','right'])+" "+choose_from(socrates_pool[0]),'radiate to '+choose_from(['left','right'])+" "+choose_from(socrates_pool[0])])+'<br>';
   var a = 'a: '+choose_from(socrates_pool[3])+'<br>';
   var t = 't: '+choose_from(socrates_pool[4])+'<br>';
   var e = 'e: '+choose_from(socrates_pool[5])+'<br>';
