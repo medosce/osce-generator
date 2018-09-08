@@ -1,3 +1,15 @@
-this is the website to test the osce generator
-work in progress
-ask Tu if you need something
+<!DOCTYPE html>
+<html>
+<script src="gen.js"></script>
+<body>
+
+<p>OSCE Generator</p>
+<p>this is a demo of a case randomly generated</p>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = generate_osce()">
+click here to generate an osce</button>
+
+<p id="osce-demo" style="font-family:monospace;"></p>
+
+</body>
+</html>
