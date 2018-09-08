@@ -52,3 +52,12 @@ function generate_osce () {
   osce_case += '<br>marking scheme: <br>empty, needs to be added later<br>';
   return osce_case
 }
+
+function toggle_element(element_name) {
+    var x = document.getElementById(element_name);
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+} 

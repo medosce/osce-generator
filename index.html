@@ -2,6 +2,7 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="gen.js"></script>
+<script></script>
 <body>
 
 <p>OSCE Generator</p>
@@ -15,11 +16,15 @@ generate an osce</button>
 
 <p id="osce_demo" style="font-family:monospace;"></p>
 
-<p><br><br><br>*note -- to do list:<br>make the generator write in complete sentences<br>
+<button type="button"
+onclick="toggle_element('notes')">
+notes</button>
+
+<p id="notes" style="display:none;">*note<br>to do list:<br>make the generator write in complete sentences<br>
 make the case something other than just a presentation of pain<br>
 make the generator come up with a list of appropriate ddx for the mark scheme<br>
 make the generator cover any body system<br>
-<br><br><br><br>
+<br>
 in the future:<br>
 make it able to act as a simulated patient (using voice like Siri);<br>
 make it able to mark the student like a real examiner and give feedback<br>
